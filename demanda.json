@@ -22,14 +22,14 @@
   },
   {
     "Barrio": "Blasco",
-    "Tipo": "Policia",
+    "Tipo": "Squad",
     "Cantidad": 1,
     "Horas": 8,
     "Total_Horas": 8
   },
   {
     "Barrio": "Blasco",
-    "Tipo": "Squad",
+    "Tipo": "Policia",
     "Cantidad": 1,
     "Horas": 8,
     "Total_Horas": 8
