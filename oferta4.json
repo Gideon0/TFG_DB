@@ -1,0 +1,10 @@
+[
+  {
+    "Barrio": "Benimaclet",
+    "Identificador": "Nicole",
+    "Tipo": "Cirujano",
+    "Padre": "Medico",
+    "Horas": 14,
+    "Costo": 10
+  }
+]
