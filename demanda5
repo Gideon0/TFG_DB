@@ -1,0 +1,32 @@
+[
+  {
+    "Barrio": "Benimaclet",
+    "Tipo": "Medico",
+    "Cantidad": 1,
+    "Horas": 1
+  },
+  {
+    "Barrio": "Blasco",
+    "Tipo": "Medico",
+    "Cantidad": 1,
+    "Horas": 1
+  },
+  {
+    "Barrio": "Orriols",
+    "Tipo": "Medico",
+    "Cantidad": 1,
+    "Horas": 1
+  },
+  {
+    "Barrio": "Cabanyal",
+    "Tipo": "Medico",
+    "Cantidad": 1,
+    "Horas": 1
+  },
+  {
+    "Barrio": "Xativa",
+    "Tipo": "Medico",
+    "Cantidad": 1,
+    "Horas": 1
+  }
+]
