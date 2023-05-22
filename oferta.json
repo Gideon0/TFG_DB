@@ -4,7 +4,7 @@
     "Identificador": "Luis",
     "Tipo": "Medico",
     "Padre": "",
-    "Horas": 8,
+    "Horas": 6,
     "Costo": 7
   },
   {
@@ -28,7 +28,7 @@
     "Identificador": "Nicole",
     "Tipo": "Cirujano",
     "Padre": "Medico",
-    "Horas": 8,
+    "Horas": 10,
     "Costo": 10
   },
   {
