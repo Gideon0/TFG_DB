@@ -4,41 +4,41 @@
     "Tipo": "Medico",
     "Cantidad": 2,
     "Horas": 5,
-    "Total_Horas": 16
+    "Prioridad": 1
   },
   {
     "Barrio": "Benimaclet",
     "Tipo": "Bombero",
     "Cantidad": 1,
     "Horas": 8,
-    "Total_Horas": 8
+    "Prioridad": 2
   },
   {
     "Barrio": "Benimaclet",
     "Tipo": "Cirujano",
     "Cantidad": 1,
     "Horas": 8,
-    "Total_Horas": 8
+    "Prioridad": 5
   },
   {
     "Barrio": "Blasco",
     "Tipo": "Squad",
     "Cantidad": 1,
     "Horas": 8,
-    "Total_Horas": 8
+    "Prioridad": 4
   },
   {
     "Barrio": "Blasco",
     "Tipo": "Policia",
     "Cantidad": 1,
     "Horas": 8,
-    "Total_Horas": 8
+    "Prioridad": 3
   },
   {
     "Barrio": "Blasco",
     "Tipo": "Bombero",
     "Cantidad": 1,
     "Horas": 8,
-    "Total_Horas": 8
+    "Prioridad": 1
   }
 ]
