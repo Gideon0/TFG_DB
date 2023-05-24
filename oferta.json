@@ -29,7 +29,7 @@
     "Tipo": "Cirujano",
     "Padre": "Medico",
     "Horas": 8,
-    "Costo": 15
+    "Costo": 100
   },
   {
     "Barrio": "Blasco",
