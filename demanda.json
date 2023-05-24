@@ -16,7 +16,7 @@
   {
     "Barrio": "Benimaclet",
     "Tipo": "Bombero",
-    "Cantidad": 1,
+    "Cantidad": 2,
     "Horas": 8,
     "Prioridad": 2
   },
@@ -44,7 +44,7 @@
   {
     "Barrio": "Blasco",
     "Tipo": "Bombero",
-    "Cantidad": 1,
+    "Cantidad": 2,
     "Horas": 8,
     "Prioridad": 1
   }
