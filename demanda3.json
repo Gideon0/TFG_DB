@@ -5,5 +5,12 @@
     "Cantidad": 1,
     "Horas": 8,
     "Prioridad": 1
+  },
+  {
+    "Barrio": "Orrilos",
+    "Tipo": "Medico",
+    "Cantidad": 1,
+    "Horas": 8,
+    "Prioridad": 1
   }
 ]
