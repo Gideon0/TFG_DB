@@ -1,6 +1,6 @@
 [
   {
-    "Barrio": "Benimaclet",
+    "Ubicacion": "Benimaclet",
     "Identificador": "Luis",
     "Tipo": "Medico",
     "Padre": "",
@@ -8,7 +8,7 @@
     "Costo": 7
   },
   {
-    "Barrio": "Benimaclet",
+    "Ubicacion": "Benimaclet",
     "Identificador": "Sergio",
     "Tipo": "Bombero",
     "Padre": "",
@@ -16,7 +16,7 @@
     "Costo": 5
   },
   {
-    "Barrio": "Benimaclet",
+    "Ubicacion": "Benimaclet",
     "Identificador": "Alejandra",
     "Tipo": "Medico",
     "Padre": "",
@@ -24,7 +24,7 @@
     "Costo": 7
   },
   {
-    "Barrio": "Benimaclet",
+    "Ubicacion": "Benimaclet",
     "Identificador": "Nicole",
     "Tipo": "Cirujano",
     "Padre": "Medico",
@@ -32,7 +32,7 @@
     "Costo": 10
   },
   {
-    "Barrio": "Blasco",
+    "Ubicacion": "Blasco",
     "Identificador": "Anna",
     "Tipo": "Policia",
     "Padre": "",
@@ -40,7 +40,7 @@
     "Costo": 5
   },
   {
-    "Barrio": "Blasco",
+    "Ubicacion": "Blasco",
     "Identificador": "Gaby",
     "Tipo": "Squad",
     "Padre": "Policia",
@@ -48,7 +48,7 @@
     "Costo": 8
   },
   {
-    "Barrio": "Blasco",
+    "Ubicacion": "Blasco",
     "Identificador": "Nea",
     "Tipo": "Bombero",
     "Padre": "",
@@ -56,7 +56,7 @@
     "Costo": 5
   },
   {
-    "Barrio": "Blasco",
+    "Ubicacion": "Blasco",
     "Identificador": "Alberto",
     "Tipo": "Bombero",
     "Padre": "",
