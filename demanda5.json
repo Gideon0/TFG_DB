@@ -1,20 +1,20 @@
 [
   {
-    "Barrio": "Benimaclet",
+    "Ubicacion": "Benimaclet",
     "Tipo": "Medico",
     "Cantidad": 1,
     "Horas": 4,
     "Prioridad": 2
   },
   {
-    "Barrio": "Benimaclet",
+    "Ubicacion": "Benimaclet",
     "Tipo": "Bombero",
     "Cantidad": 1,
     "Horas": 4,
     "Prioridad": 2
   },
   {
-    "Barrio": "Orriols",
+    "Ubicacion": "Orriols",
     "Tipo": "Medico",
     "Cantidad": 2,
     "Horas": 6,
