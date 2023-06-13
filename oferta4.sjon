@@ -1,0 +1,10 @@
+[
+  {
+    "Ubicacion": "Benimaclet",
+    "Identificador": "Luis",
+    "Tipo": "Medico",
+    "Padre": "General",
+    "Horas": 8,
+    "Costo": 7
+  }
+]
