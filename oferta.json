@@ -3,7 +3,7 @@
     "Ubicacion": "Benimaclet",
     "Identificador": "Luis",
     "Tipo": "Medico",
-    "Padre": "",
+    "Tipo Genérico": "",
     "Horas": 8,
     "Costo": 7
   },
@@ -11,7 +11,7 @@
     "Ubicacion": "Benimaclet",
     "Identificador": "Sergio",
     "Tipo": "Bombero",
-    "Padre": "",
+    "Tipo Genérico": "",
     "Horas": 8,
     "Costo": 5
   },
@@ -19,7 +19,7 @@
     "Ubicacion": "Benimaclet",
     "Identificador": "Alejandra",
     "Tipo": "Medico",
-    "Padre": "",
+    "Tipo Genérico": "",
     "Horas": 8,
     "Costo": 7
   },
@@ -27,7 +27,7 @@
     "Ubicacion": "Benimaclet",
     "Identificador": "Nicole",
     "Tipo": "Cirujano",
-    "Padre": "Medico",
+    "Tipo Genérico": "Medico",
     "Horas": 8,
     "Costo": 10
   },
@@ -35,7 +35,7 @@
     "Ubicacion": "Blasco",
     "Identificador": "Anna",
     "Tipo": "Policia",
-    "Padre": "",
+    "Tipo Genérico": "",
     "Horas": 8,
     "Costo": 5
   },
@@ -43,7 +43,7 @@
     "Ubicacion": "Blasco",
     "Identificador": "Gaby",
     "Tipo": "Squad",
-    "Padre": "Policia",
+    "Tipo Genérico": "Policia",
     "Horas": 8,
     "Costo": 8
   },
@@ -51,7 +51,7 @@
     "Ubicacion": "Blasco",
     "Identificador": "Nea",
     "Tipo": "Bombero",
-    "Padre": "",
+    "Tipo Genérico": "",
     "Horas": 8,
     "Costo": 5
   },
@@ -59,7 +59,7 @@
     "Ubicacion": "Blasco",
     "Identificador": "Alberto",
     "Tipo": "Bombero",
-    "Padre": "",
+    "Tipo Genérico": "",
     "Horas": 8,
     "Costo": 5
   }
