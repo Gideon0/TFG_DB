@@ -7,13 +7,6 @@
     "Prioridad": 2
   },
   {
-    "Ubicacion": "Benimaclet",
-    "Tipo": "Bombero",
-    "Cantidad": 1,
-    "Horas": 4,
-    "Prioridad": 2
-  },
-  {
     "Ubicacion": "Orriols",
     "Tipo": "Medico",
     "Cantidad": 2,
