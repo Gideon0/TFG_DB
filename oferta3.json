@@ -3,7 +3,7 @@
     "Ubicacion": "Benimaclet",
     "Identificador": "Luis",
     "Tipo": "Medico",
-    "Padre": "",
+    "Tipo Genérico": "",
     "Horas": 8,
     "Costo": 7
   },
@@ -11,7 +11,7 @@
     "Ubicacion": "Benimaclet",
     "Identificador": "Alejandra",
     "Tipo": "Medico",
-    "Padre": "",
+    "Tipo Genérico": "",
     "Horas": 8,
     "Costo": 7
   }
