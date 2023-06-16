@@ -3,7 +3,7 @@
     "Ubicacion": "Benimaclet",
     "Identificador": "Luis",
     "Tipo": "Medico",
-    "Padre": "General",
+    "Tipo Genérico": "General",
     "Horas": 8,
     "Costo": 7
   }
