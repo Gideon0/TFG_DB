@@ -5,12 +5,5 @@
     "Cantidad": 1,
     "Horas": 4,
     "Prioridad": 1
-  },
-  {
-    "Ubicacion": "Benimaclet",
-    "Tipo": "General",
-    "Cantidad": 1,
-    "Horas": 8,
-    "Prioridad": 1
   }
 ]
