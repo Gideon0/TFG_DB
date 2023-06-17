@@ -3,7 +3,14 @@
     "Ubicacion": "Benimaclet",
     "Tipo": "Medico",
     "Cantidad": 1,
-    "Horas": 4,
-    "Prioridad": 1
+    "Horas": 1,
+    "Prioridad": 5
+  },
+  {
+    "Ubicacion": "Orriols",
+    "Tipo": "Medico",
+    "Cantidad": 1,
+    "Horas": 1,
+    "Prioridad": 5
   }
 ]
