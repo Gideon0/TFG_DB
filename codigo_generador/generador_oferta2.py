@@ -29,72 +29,65 @@ def generar_identificador(tipo_generico):
 
 
 # Generar datos
-for nivel in range(1, 5):
-  if nivel == 1:
-    numero = 200
-  elif nivel == 2:
-    numero = 400
-  elif nivel == 3:
-    numero = 600 
-  elif nivel == 4:
-    numero = 35000 
-  for i in range(1, 6):
-    oferta = []
-    combinaciones = set()
-    matriculas = set()
-    contador = 0
-    while len(oferta) < numero:
-      tipo = random.choice(tipos)
-      tipo_index = tipos.index(tipo)
-      if(tipo_index >= 0 and tipo_index <= 2):
-        Tipo_Generico = "Medico"
-      elif(tipo_index >= 3 and tipo_index <= 5):
-        Tipo_Generico = "Bombero"
-      elif(tipo_index >= 6 and tipo_index <= 8):
-        Tipo_Generico = "Policia"
-      elif(tipo_index >= 9 and tipo_index <= 12):
-        Tipo_Generico = "Vehiculo grande"
-      elif(tipo_index >= 13 and tipo_index <= 15):
-        Tipo_Generico = "Vehiculo pequenyo"
+nivel = 4
+numero = 35000 
+for i in range(1, 6):
+  oferta = []
+  combinaciones = set()
+  matriculas = set()
+  contador = 0
+  while len(oferta) < numero:
+    tipo = random.choice(tipos)
+    tipo_index = tipos.index(tipo)
+    if(tipo_index >= 0 and tipo_index <= 2):
+      Tipo_Generico = "Medico"
+    elif(tipo_index >= 3 and tipo_index <= 5):
+      Tipo_Generico = "Bombero"
+    elif(tipo_index >= 6 and tipo_index <= 8):
+      Tipo_Generico = "Policia"
+    elif(tipo_index >= 9 and tipo_index <= 12):
+      Tipo_Generico = "Vehiculo grande"
+    elif(tipo_index >= 13 and tipo_index <= 15):
+      Tipo_Generico = "Vehiculo pequenyo"
       
-      identificador = generar_identificador(Tipo_Generico)
-      ubicacion = random.choice(ubicaciones)
-      combinacion = (ubicacion, identificador, tipo) 
-      matricula = (identificador)
-      if ((Tipo_Generico == "Medico" or Tipo_Generico == "Policia" or Tipo_Generico == "Bombero") and combinacion not in combinaciones):
-        horas = random.randint(1, 8)
-        costo = random.randint(6, 10)
-        oferta.append({
-            'Ubicacion': ubicacion,
-            'Identificador': identificador,
-            'Tipo': tipo,
-            'Tipo Generico': Tipo_Generico,
-            'Horas': horas,
-            'Costo': costo
-        })
-        combinaciones.add(combinacion)
-        contador = contador + 1
+    identificador = generar_identificador(Tipo_Generico)
+    ubicacion = random.choice(ubicaciones)
+    combinacion = (ubicacion, identificador, tipo) 
+    matricula = (identificador)
+    if ((Tipo_Generico == "Medico" or Tipo_Generico == "Policia" or Tipo_Generico == "Bombero") and combinacion not in combinaciones):
+      horas = random.randint(1, 8)
+      costo = random.randint(6, 10)
+      oferta.append({
+          'Ubicacion': ubicacion,
+          'Identificador': identificador,
+          'Tipo': tipo,
+          'Tipo Generico': Tipo_Generico,
+          'Horas': horas,
+          'Costo': costo
+      })
+      combinaciones.add(combinacion)
+      contador = contador + 1
 
-      elif((Tipo_Generico == "Vehiculo grande" or Tipo_Generico == "Vehiculo pequenyo") and matricula not in matriculas):
-        horas = random.randint(1, 8)
-        costo = random.randint(6, 10)
-        oferta.append({
-            'Ubicacion': ubicacion,
-            'Identificador': identificador,
-            'Tipo': tipo,
-            'Tipo Generico': Tipo_Generico,
-            'Horas': horas,
-            'Costo': costo
-        })
-        matriculas.add(matricula)
-        contador = contador + 1
-    # Guardar los datos en un archivo de texto
-    nombre = 'oferta' + str(i) + '.json'
-    carpeta = 'nivel ' + str(nivel)
-    if not os.path.exists(carpeta):
-       os.makedirs(carpeta)
-    ruta_archivo = os.path.join(carpeta, nombre)
-    with open(ruta_archivo, 'w') as archivo:
-        json.dump(oferta, archivo)
+    elif((Tipo_Generico == "Vehiculo grande" or Tipo_Generico == "Vehiculo pequenyo") and matricula not in matriculas):
+      horas = random.randint(1, 8)
+      costo = random.randint(6, 10)
+      oferta.append({
+          'Ubicacion': ubicacion,
+          'Identificador': identificador,
+          'Tipo': tipo,
+          'Tipo Generico': Tipo_Generico,
+          'Horas': horas,
+          'Costo': costo
+      })
+      matriculas.add(matricula)
+      contador = contador + 1
+  # Guardar los datos en un archivo de texto
+  nombre = 'oferta' + str(i) + '.json'
+  carpeta = 'nivel ' + str(nivel)
+  if not os.path.exists(carpeta):
+      os.makedirs(carpeta)
+  ruta_archivo = os.path.join(carpeta, nombre)
+  with open(ruta_archivo, 'w') as archivo:
+      json.dump(oferta, archivo)
 
-  print("Se han generado 5 bases de datos de oferta, nivel " + str(nivel))
+print("Se han generado 5 bases de datos de oferta, nivel " + str(nivel))
