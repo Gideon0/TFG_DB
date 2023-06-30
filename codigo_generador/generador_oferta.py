@@ -5,9 +5,9 @@ import string
 from faker import Faker
 
 faker = Faker()
-# Lista de barrios en Valencia (18)
+# Lista de barrios en Valencia (19)
 ubicaciones = ["Ciutat Vella", "Eixample", "Extamurs", "Campanar", "La Saidia", "El Pla del Real", "L'Olivereta", "Patraix", "Jesus", "Quatre Carreres", 
-               "Poblats Maritims", "Camins al Grau", "Algiros", "Benimaclet", "Rascanya", "Benicalap", "Pobles del Nord", "Pobles de l'Oest"]
+               "Poblats Maritims", "Camins al Grau", "Algiros", "Benimaclet", "Rascanya", "Benicalap", "Pobles del Nord", "Pobles de l'Oest", "Pobles del Sud"]
 
 # Lista de tipos posibles de la oferta (16)
 tipos = ["Cirujano", "Traumatologo", "Ginecologo", "Bombero Forestal", "Bombero Ayuntamiento", "Bombero Militar", "Inspector", "Comisario", "Jefe Superior", 
@@ -61,28 +61,28 @@ for nivel in range(1, 4):
       matricula = (identificador)
       if ((Tipo_Generico == "Medico" or Tipo_Generico == "Policia" or Tipo_Generico == "Bombero") and combinacion not in combinaciones):
         horas = random.randint(1, 8)
-        costo = random.randint(6, 10)
+        coste = random.randint(6, 10)
         oferta.append({
             'Ubicacion': ubicacion,
             'Identificador': identificador,
             'Tipo': tipo,
             'Tipo Generico': Tipo_Generico,
             'Horas': horas,
-            'Costo': costo
+            'Coste': coste
         })
         combinaciones.add(combinacion)
         contador = contador + 1
 
       elif((Tipo_Generico == "Vehiculo grande" or Tipo_Generico == "Vehiculo pequenyo") and matricula not in matriculas):
         horas = random.randint(1, 8)
-        costo = random.randint(6, 10)
+        coste = random.randint(6, 10)
         oferta.append({
             'Ubicacion': ubicacion,
             'Identificador': identificador,
             'Tipo': tipo,
             'Tipo Generico': Tipo_Generico,
             'Horas': horas,
-            'Costo': costo
+            'Coste': coste
         })
         matriculas.add(matricula)
         contador = contador + 1
